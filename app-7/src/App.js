@@ -16,7 +16,7 @@ class App extends Component {
   handleAdd(task) {
     this.setState({ this: [...this.state.list, task]})
   }
-}
+
 
   render() {
     let list = this.state.list.map((element, index) => {
@@ -42,7 +42,8 @@ class App extends Component {
         {list}
       </div>
     );
-  }
+  } 
+}
   
 
 
